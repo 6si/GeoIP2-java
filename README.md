@@ -1,6 +1,6 @@
 # GeoIP2 Java API #
 
-[![Build Status](https://travis-ci.org/maxmind/GeoIP2-java.png?branch=master)](https://travis-ci.org/maxmind/GeoIP2-java)
+[![Build Status](https://travis-ci.org/maxmind/GeoIP2-java.png?branch=master)](https://travis-ci.org/maxmind/GeoIP2-java) [![Known Vulnerabilities](https://snyk.io/test/github/maxmind/GeoIP2-java/badge.svg)](https://snyk.io/test/github/maxmind/GeoIP2-java)
 
 ## Description ##
 
@@ -20,7 +20,7 @@ To do this, add the dependency to your pom.xml:
     <dependency>
         <groupId>com.maxmind.geoip2</groupId>
         <artifactId>geoip2</artifactId>
-        <version>2.11.0</version>
+        <version>2.12.0</version>
     </dependency>
 ```
 
@@ -33,7 +33,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    compile 'com.maxmind.geoip2:geoip2:2.11.0'
+    compile 'com.maxmind.geoip2:geoip2:2.12.0'
 }
 ```
 
